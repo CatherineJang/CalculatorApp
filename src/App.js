@@ -14,10 +14,6 @@ function App(props) {
             if(input === "" && userInput.length <1){
                 return "Invalid";
             }
-            else if(userInput[i] === null){
-                console.log("end of string")
-                parsed = parsed + 0;
-            }
             else if (userInput[i] === "+"){
                 console.log("adding")
                 console.log(userInput.slice(i+1))
